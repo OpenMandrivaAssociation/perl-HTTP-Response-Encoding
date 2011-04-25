@@ -12,6 +12,7 @@ Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/HTTP/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires: perl(Encode)
+BuildRequires: perl(HTML::Parser)
 BuildRequires: perl(HTTP::Response)
 BuildRequires: perl(Test::More)
 BuildArch: noarch
