@@ -3,12 +3,12 @@
 
 Summary:	Adds encoding() to HTTP::Response
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	18
+Version:	%{modver}
+Release:	19
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/HTTP/%{modname}-%{modver}.tar.gz
+Url:		https://metacpan.org/dist/HTTP-Response-Encoding
+Source0:	https://cpan.metacpan.org/authors/id/D/DA/DANKOGAI/HTTP-Response-Encoding-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl(Encode)
